@@ -55,6 +55,79 @@ rel="stylesheet">
                 <button class="panel-close" data-close="order" aria-label="Close">&times;</button>
                 <h2 class="panel-title">Place your order</h2>
 
+            <div id="orderProductPreview" class="order-preview d-none">
+            <div id="previewContent" class="d-flex align-items-center gap-3"></div>
+         </div>
+ 
+             <p id="noProductMsg" class="no-product-msg">
+            ← Go to <a href="#" data-panel="products" class="nav-link-inline">Products</a> and click <strong>Order</strong> on an item first.
+            </p>
+ 
+            <form id="orderForm" novalidate class="d-none">
+ 
+            <fieldset class="panel-fieldset">
+                <legend>Personal details</legend>
+ 
+                <div class="field-group">
+                <label for="fName">Name *</label>
+                <input type="text" id="fName" placeholder="Anna Andersson" maxlength="50"/>
+                <span class="error" id="errName"></span>
+        </div>
+                <div class="field-group">
+              <label for="fEmail">Email *</label>
+              <input type="email" id="fEmail" placeholder="example@example.com" maxlength="50"/>
+              <span class="error" id="errEmail"></span>
+        </div>
+            <div class="field-group">
+              <label for="fPhone">Phone *</label>
+              <input type="tel" id="fPhone" placeholder="070-123 45 67" maxlength="20"/>
+              <span class="error" id="errPhone"></span>
+            </div>
+        </fieldset>
+ 
+            <fieldset class="panel-fieldset">
+            <legend>Delivery address</legend>
+ 
+            <div class="field-group">
+              <label for="fStreet">Street address *</label>
+              <input type="text" id="fStreet" placeholder="Storgatan 1" maxlength="50"/>
+              <span class="error" id="errStreet"></span>
+        </div>
+            <div class="field-row">
+              <div class="field-group">
+                <label for="fZip">Postcode *</label>
+                <input type="text" id="fZip" placeholder="12345" maxlength="5"/>
+                <span class="error" id="errZip"></span>
+        </div>
+              <div class="field-group">
+                <label for="fCity">City *</label>
+                <input type="text" id="fCity" placeholder="Stockholm" maxlength="20"/>
+                <span class="error" id="errCity"></span>
+              </div>
+            </div>
+          </fieldset>
+ 
+          <button type="submit" class="btn-submit-panel">Place order</button>
+        </form>
+ 
+        
+        <div id="confirmBox" class="confirm-box d-none">
+          <div class="confirm-check">✓</div>
+          <h3>Order received!</h3>
+          <p id="confirmText"></p>
+          <button id="confirmClose" class="btn-submit-panel">Back to shop</button>
+        </div>
+ 
+      </article>
+ 
+    </div>
+ 
+    <footer id="footer">
+      <p>© 2025 Spendify &mdash; Data from <a href="https://fakestoreapi.com" target="_blank">Fake Store API</a></p>
+    </footer>
+ 
+  </div>
+
 </body>
 
 
