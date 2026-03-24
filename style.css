@@ -4,9 +4,29 @@
 }
 
 /* font */
+head {
+    font-family: 'Monoton', sans-serif;
+     
+}
 
-body { font-family: Monoton;}
-.playfair { font-family: 'Playfair Display', serif;}
+header {
+    border-bottom: 1px solid #333;
+    color: #f9b804;
+}
+
+header .site-logo {
+    color: #c9a84c;
+}
+
+
+body {
+    font-family: 'Monoton', sans-serif;
+    background-color: black;
+}
+
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
 
 /* rubrik */
 
@@ -38,4 +58,19 @@ body { font-family: Monoton;}
     letter-spacing: 0.10;
     text-transform: uppercase;
     font-weight: 600;
-} 
+}
+
+
+.roboto-logo {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.monoton-regular {
+  font-family: "Monoton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
