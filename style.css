@@ -74,3 +74,65 @@ body {
   font-weight: 400;
   font-style: normal;
 }
+.btn.btn-primary{
+    background-color: var(--gold);
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn.btn-primary:hover {
+    background-color: var(--gold-dark);
+}
+body .card {
+    background-color: #111111;
+    border: 1px solid #333;
+    border-radius: 8px;
+    padding: 1rem;
+    color: #cccccc;
+}
+
+
+body.product-view {
+    background-color: #111111;
+    border: 1px solid #514706;
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--gold);
+}
+.card-text.text-danger {
+    color: var(--gold);
+}
+.card-text{
+    color: var(--gold);
+}
+
+.card-title {
+    color: var(--gold);
+}
+.card{
+    background-color: #111111;
+    border: 1px solid var(--gold);
+    border-radius: 8px;
+    padding: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+}
+
+.panel .panel-title{
+    color: var(--gold);
+}
+
+
+.panel .loading {
+    color: var(--gold);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
