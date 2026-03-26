@@ -9,10 +9,10 @@
   --gold-dark:  #a07830;            
   --bg-color:   #1b1f22;            
   --panel-bg:   rgba(20,22,26,0.92);
-  --border:     rgba(255,255,255,0.1); /
+  --border:     rgba(255,255,255,0.1); 
   --text:       #e8e4dc;            
   --text-muted: rgba(232,228,220,0.55); 
-  --error:      #e07070;            /
+  --error:      #e07070;            
 }
 
 
@@ -166,20 +166,11 @@ body::after {
 #footer a:hover { text-decoration: underline; }
 
 
-/* -----------------------------------------------------
-   RESPONSIVITET
-   Anpassningar för mobila skärmar (max 640px bredd).
-   Panelen tar upp hela skärmbredden på mobil.
-   ----------------------------------------------------- */
 @media (max-width: 640px) {
   #main {
     width: 100vw; /* Panelen fyller hela skärmen på mobil */
   }
 }
-/* =====================================================
-   products.css
-   Panel, filterknappar och Bootstrap-kortdesign
-   ===================================================== */
 
 /* Panel */
 .panel {
