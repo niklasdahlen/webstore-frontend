@@ -125,7 +125,7 @@ body::after {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   text-decoration: none;
-  transition: background 0.2s, border-color 0.2s, color 0.2s, transform 0.15s;
+  transition: background-color 0.2s, border-color 0.2s, color 0.2s, transform 0.15s;
 }
 .nav-btn:hover {
   background: rgba(201,168,76,0.15);
@@ -158,4 +158,94 @@ body::after {
 /* Responsive */
 @media (max-width: 640px) {
   #main { width: 100vw; }
+}
+
+.hero {
+    background: #111111;
+    border-bottom: 1px solid #333;
+}
+
+.hero-brand {
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(3rem, 8vw, 5.5rem);
+    color: var(--gold);
+    letter-spacing: 0.05em;
+    line-height: 1.1;
+}
+
+.hero-tagline {
+    font-size: 1rem;
+    color: #cccccc;
+    letter-spacing: 0.10em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+/* ===== TYPSNITT ===== */
+.roboto-logo {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.monoton-regular {
+    font-family: "Monoton", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ===== BOOTSTRAP KNAPP ===== */
+.btn.btn-primary {
+    background-color: var(--gold);
+    color: black;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.btn.btn-primary:hover {
+    background-color: var(--gold-dark);
+}
+
+/* ===== PRODUKTKORT ===== */
+.card {
+    background-color: #111111;
+    border: 1px solid var(--gold);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 20px;
+}
+
+.card-title {
+    color: var(--gold);
+}
+
+.card-text {
+    color: var(--gold);
+}
+
+.card-text.text-danger {
+    color: var(--gold);
+}
+
+/* ===== PRODUCT VIEW ===== */
+body.product-view {
+    background-color: #111111;
+    border: 1px solid #514706;
+    border-radius: 8px;
+    padding: 1rem;
+    color: var(--gold);
+}
+
+/* ===== PANEL ===== */
+.panel .panel-title {
+    color: var(--gold);
+}
+
+.panel .loading {
+    color: var(--gold);
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
 }
