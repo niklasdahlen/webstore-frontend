@@ -134,7 +134,7 @@ body::after {
   transform: translateY(-2px);
 }
  
-/* Panel container */
+
 #main {
   position: fixed;
   top: 0; right: 0;
@@ -144,7 +144,7 @@ body::after {
   pointer-events: none;
 }
  
-/* Footer */
+
 #footer {
   text-align: center;
   padding: 20px 0 0;
@@ -181,7 +181,7 @@ body::after {
     font-weight: 600;
 }
 
-/* ===== TYPSNITT ===== */
+
 .roboto-logo {
     font-family: "Roboto", sans-serif;
     font-weight: 200;
@@ -194,7 +194,7 @@ body::after {
     font-style: normal;
 }
 
-/* ===== BOOTSTRAP KNAPP ===== */
+
 .btn.btn-primary {
     background-color: var(--gold);
     color: black;
@@ -208,7 +208,7 @@ body::after {
     background-color: var(--gold-dark);
 }
 
-/* ===== PRODUKTKORT ===== */
+
 .card {
     background-color: #111111;
     border: 1px solid var(--gold);
@@ -229,7 +229,7 @@ body::after {
     color: var(--gold);
 }
 
-/* ===== PRODUCT VIEW ===== */
+
 body.product-view {
     background-color: #111111;
     border: 1px solid #514706;
@@ -238,7 +238,7 @@ body.product-view {
     color: var(--gold);
 }
 
-/* ===== PANEL ===== */
+
 .panel .panel-title {
     color: var(--gold);
 }
